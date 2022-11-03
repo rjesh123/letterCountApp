@@ -1,0 +1,40 @@
+/* Write your code here. */
+
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 50px;
+}
+.letters-card-container {
+  background-image: linear-gradient(to right, #1d976c, #93f9b9);
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.letters-count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+.heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 32px;
+}
+.input-value {
+  color: #e4e7eb;
+}
+.letters-count {
+  background-color: #ffffff;
+  border-radius: 10px;
+  color: #219a6f;
+  text-align: center;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 800;
+  padding: 20px;
+}
